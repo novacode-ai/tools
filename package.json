@@ -1,0 +1,15 @@
+{
+  "name": "@novacode-ai/tools",
+  "version": "1.0.0",
+  "description": "System tools and MCP integrations for Nova Code",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@novacode-ai/types": "workspace:*",
+    "zod": "^4.6.5"
+  }
+}
